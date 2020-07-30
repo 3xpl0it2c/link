@@ -1,0 +1,93 @@
+body {
+	background-color: #121314;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	color: #dcd9d7;
+	height: 100% !important;
+}
+
+nav {
+	grid-row: 1;
+	grid-column: 1 / 4;
+}
+
+article {
+	grid-row: 2 / 4;
+	grid-column: 1 / 4;
+}
+
+footer {
+	grid-row: 5;
+	grid-column: 1 / 4;
+}
+
+.navbar {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.searchbar {
+	border-style: solid;
+	border-radius: 2px;
+	border-color: #C5C5C5;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+	height: 2.5em;
+}
+
+.boxes_container {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows:    repeat(3, auto);
+	grid-column-gap: 1fr;
+	grid-row-gap: 3em;
+	justify-content: space-evenly;
+	/*align-content: space-evenly;*/
+}
+
+.boxes_container > div {
+	text-align: center;
+	background-color: #FAFBFC;
+	border-radius: 0.4em;
+	border-color: black;
+	border-style: solid;
+	align-self: center;
+	padding: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.icon {
+	padding: auto;
+	width: 14em;
+	height: 12em;
+}
+
+.appreciation {
+	background-color: #F8F8F8;
+	border-radius: 0.5em;
+	color: #232628;
+	max-height: 15%;
+	max-width: 25%;
+	padding: 0.4% 5% 0.4% 5%;
+	margin: 10% auto 0% auto;
+	text-align: center;
+	word-wrap: initial;
+	position: relative;
+}
+
+#blood {
+	color: #F41400;
+}
+
+#sweat {
+	color: #A8A89A;
+}
+
+#tears {
+	color: #72A2F8;
+}

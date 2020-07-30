@@ -1,0 +1,19 @@
+{
+  "name": "link",
+  "version": "1.0.0",
+  "description": "My homepage",
+  "main": "index.js",
+  "repository": "https://github.com/3xpl0it2c/link",
+  "author": "3xpl0it2c",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dist": "webpack"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
